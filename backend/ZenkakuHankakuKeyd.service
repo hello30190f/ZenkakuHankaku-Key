@@ -1,0 +1,13 @@
+[Unit]
+Description=ZenkakuHankaku-key extension backend
+
+[Service]
+Type=simple
+User=root
+
+ExecStart=/server.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+
