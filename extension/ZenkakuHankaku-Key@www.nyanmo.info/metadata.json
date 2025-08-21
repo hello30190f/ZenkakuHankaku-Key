@@ -1,0 +1,8 @@
+{
+  "name": "ZenkakuHankaku Key",
+  "description": "Try to provide better Japanese input support on GNOME with touch screen and wayland environment.",
+  "uuid": "ZenkakuHankaku-Key@www.nyanmo.info",
+  "shell-version": [
+    "48","47"
+  ]
+}

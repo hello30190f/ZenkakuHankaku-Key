@@ -2,7 +2,7 @@
 A Gnome extension for wayland and touchpanel environment. Give better Japanese input support with GNOME OSK. 
 
 # Sample image
- sitll nothing...
+ ![サンプル画像](./metadata/sample画像.png)
 
 # Useage(coming soon...)
 ## install
