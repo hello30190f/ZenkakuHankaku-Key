@@ -23,8 +23,8 @@ yay -S python python-uinput python-websockets
 sudo ./install.sh
 ```
 ### bug
- Currently the installer can't fix server script path so you need to fix it manually.
-2. fix filepath for server.py (backend)
+ Currently the installer can't fix server script path so you need to fix it manually.  
+#### fix filepath for server.py (backend)
 ```bash
 # old
 ExecStart=/server.py
