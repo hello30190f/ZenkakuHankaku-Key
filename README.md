@@ -1,5 +1,5 @@
 # ZenkakuHankaku-Key (incomplete)
-A Gnome extension for wayland and touchpanel environment. Give better Japanese input support with GNOME OSK. 
+A Gnome extension for wayland and touchpanel environment. Give GNOME users better Japanese input support with GNOME OSK.
 
 # Sample image
  ![サンプル画像](./metadata/sample画像.png)
