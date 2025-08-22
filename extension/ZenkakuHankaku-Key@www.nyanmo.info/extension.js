@@ -115,12 +115,10 @@ class Indicator extends PanelMenu.Button {
     _init() {
         super._init(0.0, _('ZenkakuHankaku-Key'),true); // true mean dont_create_menu
 
-
-
         let homedir     = GLib.get_home_dir() + "/"
         let extdir      = homedir + ".local/share/gnome-shell/extensions/ZenkakuHankaku-Key@www.nyanmo.info/"
         let iconPath    = extdir + "imgs/全角半角キー.png"
-        Main.notify(_(String(iconPath)))
+        // Main.notify(_(String(iconPath)))
         let gicon = Gio.icon_new_for_string(`${iconPath}`);
 
         this.add_child(new St.Icon({
