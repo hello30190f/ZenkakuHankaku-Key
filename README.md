@@ -49,6 +49,6 @@ sudo systemctl enable --now ZenkakuHankakuKeyd.service
 ```
 
 ### finalize
- relogin into your account. to enable GNOME extension which you manually installed.
+ relogin into your account to enable GNOME extension which you manually installed.
 
 
