@@ -10,6 +10,14 @@ A Gnome extension for wayland and touchpanel environment. Give GNOME users bette
 - Mouse and TouchPanel
 
 # Usage(currently only support arch linux env and untested. be careful.)
+## required package
+- python
+- python-uinput
+- python-websockets
+```bash
+yay -S python python-uinput python-websockets
+```
+
 ## install
 ```bash
 sudo ./install.sh
@@ -51,4 +59,6 @@ sudo systemctl enable --now ZenkakuHankakuKeyd.service
 ### finalize
  relogin into your account to enable GNOME extension which you manually installed.
 
-
+# TOOD
+- [ ] ExecStart path update on installer
+- [ ] explain how to enable extension on GNOME. Default is inactive so user need to enable it manually 
