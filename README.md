@@ -1,10 +1,15 @@
-# ZenkakuHankaku-Key (incomplete)
+# ZenkakuHankaku-Key (untested other env)
 A Gnome extension for wayland and touchpanel environment. Give GNOME users better Japanese input support with GNOME OSK.
 
 # Sample image
  ![サンプル画像](./metadata/sample画像.png)
 
-# Usage(coming soon...)
+# supported environment
+- GNOME 47 
+- Arch Linux
+- Mouse and TouchPanel
+
+# Usage(currently only support arch linux env and untested. be careful.)
 ## install
 ```bash
 sudo ./install.sh
@@ -14,12 +19,20 @@ sudo ./install.sh
 sudo ./uninstall.sh
 ```
 
-## manual installation (incomplete)
+## manual installation
+### GNOME extension
+1. place extention
+```bash
+cp -r ./extension/ZenkakuHankaku-Key@www.nyanmo.info "${HOME}/.local/share/gnome-shell/extensions/ZenkakuHankaku-Key@www.nyanmo.info"
+```
+
 ### backend
 1. place ZenkakuHankakuKeyd.service 
 ```bash
-# arch linux example
-cp ./backend/ZenkakuHankakuKeyd.service /etc/systemd/system/ZenkakuHankakuKeyd.service
+# change depend on your linux distribution
+SYSTEMD_SERVICE_DIR="/etc/systemd/system/"
+
+sudo cp ./extension/ZenkakuHankaku-Key@www.nyanmo.info/backend/ZenkakuHankakuKeyd.service "${SYSTEMD_SERVICE_DIR}ZenkakuHankakuKeyd.service"
 ```
 2. fix filepath for server.py (backend)
 ```bash
@@ -35,6 +48,7 @@ ExecStart=/home/[username]/.local/share/gnome-shell/extensions/ZenkakuHankaku-Ke
 sudo systemctl enable --now ZenkakuHankakuKeyd.service 
 ```
 
-### GNOME extension
+### finalize
+ relogin into your account. to enable GNOME extension which you manually installed.
 
 
