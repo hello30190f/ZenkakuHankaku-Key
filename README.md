@@ -4,7 +4,7 @@ A Gnome extension for wayland and touchpanel environment. Give better Japanese i
 # Sample image
  ![サンプル画像](./metadata/sample画像.png)
 
-# Useage(coming soon...)
+# Usage(coming soon...)
 ## install
 ```bash
 sudo ./install.sh
