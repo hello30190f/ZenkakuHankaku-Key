@@ -7,7 +7,7 @@ from websockets.exceptions import ConnectionClosedOK
 
 device = uinput.Device([uinput.KEY_GRAVE])
 
-async def hello(websocket):
+async def enterGrave(websocket):
     # keep socket from closing
     while True:
         try:
@@ -20,7 +20,7 @@ async def hello(websocket):
             break
 
 async def main():
-    async with serve(hello, "localhost", 50096) as server:
+    async with serve(enterGrave, "localhost", 50096) as server:
         await server.serve_forever()
 
 if __name__ == "__main__":
