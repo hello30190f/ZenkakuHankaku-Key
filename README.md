@@ -5,7 +5,7 @@ A Gnome extension for wayland and touchpanel environment. Give GNOME users bette
  ![サンプル画像](./metadata/sample画像.png)
 
 # supported environment
-- GNOME 47 
+- GNOME 47, 48 
 - Arch Linux
 - Mouse and TouchPanel
 
