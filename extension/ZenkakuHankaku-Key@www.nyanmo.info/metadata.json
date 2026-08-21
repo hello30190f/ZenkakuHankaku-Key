@@ -3,6 +3,6 @@
   "description": "Try to provide better Japanese input support on GNOME with touch screen and wayland environment.",
   "uuid": "ZenkakuHankaku-Key@www.nyanmo.info",
   "shell-version": [
-    "49","48","47"
+    "50","49","48","47"
   ]
 }
